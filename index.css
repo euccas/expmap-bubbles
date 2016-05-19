@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,300italic,300,400italic,500,500italic,700,700italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600,200italic,600italic&subset=latin,vietnamese");
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+div#wrapper {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: text;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#fff;
+    background-attachment:fixed;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    font-family: "Ubuntu", Helvetica, HelvaticaNeue, sans-serif;
+    font-size: 1.0em;
+}
+
+div#wrapper header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: block;
+    width: 100%;
+    vertical-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 38px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    background-color: #f3cd52;
+}
+
+div#wrapper header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div#wrapper header a:hover {
+    opacity: 1;
+    color: #fff;
+}
+
+div#wrapper header a:active {
+    opacity: 1;
+    color: #fff;
+}
+
+div#wrapper header a:visited {
+    opacity: 1;
+    color: #fff;
+}
+
+div#wrapper header p {
+    margin-left: 6px;
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+div#wrapper header span#back {
+    font-family: "Ubuntu", Helvetica, HelvaticaNeue, sans-serif;
+    margin-left: 7px;
+    color: #fff;
+    font-size: 0.8em;
+    vertical-align: middle;
+}
+
+div#wrapper section.essay {
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+div#wrapper section.essay h1 {
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
+    color: #777;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+div#wrapper section.essay p {
+    font-size: 1.1em;
+    letter-spacing: 0.03em;
+    line-height: 1.4em;
+    color: #888;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+div#wrapper section.essay p.annotate {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #888;
+}
+
+div#wrapper section.essay p.p-center {
+    font-size: 1.2em;
+    letter-spacing: 0.03em;
+    color: #888;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+div#wrapper section.essay p	a {
+    -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    border-bottom: solid 1px #e4e4e4;
+    color: inherit;
+    text-decoration: none;
+}
+
+div#wrapper section.essay p a:hover {
+    border-bottom-color: transparent;
+    color: #f3cd52 !important;
+}
+
+div#wrapper .bubbleChart {
+    min-width: 100px;
+    max-width: 900px;
+    height: 800px;
+    margin: 10px auto;
+}
+
+div#wrapper .bubbleChart svg{
+    background: #fff;
+}
+
+

@@ -39,12 +39,12 @@ $(document).ready(function () {
             {
                 name: "central-click",
                 options: {
-                    text: "(See My Notes)",
+                    text: "( See My Notes )",
                     textField: "url",
                     classed: {url: true},
                     style: {
                         "font-size": "24px",
-                        "font-style": "italic",
+                        "font-style": "normal",
                         "font-family": "Source Sans Pro, sans-serif",
                         //"font-weight": "700",
                         "text-anchor": "middle",
