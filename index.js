@@ -10,7 +10,7 @@ $(document).ready(function () {
         //viewBoxSize: => use @default
         innerRadius: 760 / 5,
         //outerRadius: => use @default
-        radiusMin: 50,
+        radiusMin: 40,
         //radiusMax: use @default
         //intersectDelta: use @default
         //intersectInc: use @default
