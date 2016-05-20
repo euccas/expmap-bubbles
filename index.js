@@ -17,7 +17,7 @@ $(document).ready(function () {
         //circleColor: use @default
         data: {
             items: [
-                {text: "Ruby", count: "308", url: "https://trello.com/b/MMWvebVQ/expmap-ruby"},
+                {text: "Ruby", count: "308", url: "https://trello.com/b/NWH2sStH/expmap-ruby"},
                 {text: "Ruby on Rails", count: "236", url: "https://trello.com/b/zRsFupuv/expmap-rubyonrails"},
                 {text: "Python", count: "310", url: "https://trello.com/b/Vx3x9inC/expmap-python"},
                 {text: "AWS", count: "123", url: "https://trello.com/b/MMWvebVQ/expmap-aws"},
