@@ -30,7 +30,6 @@ $(document).ready(function () {
                 {text: "Linux", count: "100", url: "https://trello.com/b/xB1IMHSB/expmap-linux"},
                 {text: "Perforce", count: "24", url: "https://trello.com/b/DWUc8Ltt/expmap-perforce"},
                 {text: "jQuery", count: "89", url: "https://trello.com/b/yqxcJ5PL/expmap-jquery"},
-                {text: "Chef", count: "35", url: "https://trello.com/b/jBLbKESv/expmap-chef"},
             ],
             eval: function (item) {return item.count;},
             classed: function (item) {return item.text.split(" ").join("");},
