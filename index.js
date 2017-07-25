@@ -6,11 +6,11 @@ $(document).ready(function () {
     var bubbleChart = new d3.svg.BubbleChart({
         supportResponsive: true,
         //container: => use @default
-        size: 760,
+        size: 740,
         //viewBoxSize: => use @default
         innerRadius: 760 / 5,
         //outerRadius: => use @default
-        radiusMin: 40,
+        radiusMin: 42,
         //radiusMax: use @default
         //intersectDelta: use @default
         //intersectInc: use @default
